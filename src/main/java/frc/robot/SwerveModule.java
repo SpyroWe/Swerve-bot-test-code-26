@@ -15,7 +15,7 @@ import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.motorcontrol.PWMTalonFX;//pwmsparkmaxs, Changed all pwm to talon fxs
 
 public class SwerveModule {
-  private static final double kWheelRadius = 0.0508;
+  private static final double kWheelRadius = 2;
   private static final int kEncoderResolution = 4096;
 
   private static final double kModuleMaxAngularVelocity = Drivetrain.kMaxAngularSpeed;
